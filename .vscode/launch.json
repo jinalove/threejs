@@ -9,7 +9,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost/three/dist/index.html",
+            "url1": "http://localhost/threejs/dist/index.html",
 
             //https://developer.mozilla.org/zh-CN/docs/Web/API/WebGLRenderingContext/vertexAttribPointer
 
@@ -19,7 +19,7 @@
             //"url": "http://localhost/three/webgl/move/movePoint.html",
             //"url": "http://localhost/three/webgl/move/movePapos.html",
             //"url": "http://localhost/three/webgl/cubeRot/cubeRot2.html",
-            //"url0": "http://localhost/three/webgl/varying/colorInsert.html",
+            "url": "http://localhost/threejs/webgl/varying/colorInsert.html",
 
 
 
