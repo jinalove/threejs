@@ -2,29 +2,37 @@
     // 使用 IntelliSense 了解相关属性。 
     // 悬停以查看现有属性的描述。
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    //http://www.yanhuangxueyuan.com/
     "version": "0.2.0",
     "configurations": [
         {
-            //http://www.yanhuangxueyuan.com/
+            //ts:
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url1": "http://localhost/threejs/dist/index.html",
-
+            "url": "http://localhost/three.js/dist/index.html",
+     
+            //--------------------------------------------------------------------------------------------------------------------------
+             //webgl:
             //https://developer.mozilla.org/zh-CN/docs/Web/API/WebGLRenderingContext/vertexAttribPointer
+            //"url": "http://localhost/three.js/webgl/point/canvasLine.html",
+            //"url": "http://localhost/three.js/webgl/rect/rect.html",
+            //"url": "http://localhost/three.js/webgl/coordination/coordination.html",
+            //"url": "http://localhost/three.js/webgl/move/movePoint.html",
+            //"url": "http://localhost/three.js/webgl/move/movePapos.html",
+            //"url": "http://localhost/three.js/webgl/cubeRot/cubeRot2.html",
+            "url2": "http://localhost/three.js/webgl/varying/colorInsert.html",
 
-            //"url": "http://localhost/three/webgl/point/canvasLine.html",
-            //"url": "http://localhost/three/webgl/rect/rect.html",
-            //"url": "http://localhost/three/webgl/coordination/coordination.html",
-            //"url": "http://localhost/three/webgl/move/movePoint.html",
-            //"url": "http://localhost/three/webgl/move/movePapos.html",
-            //"url": "http://localhost/three/webgl/cubeRot/cubeRot2.html",
-            "url": "http://localhost/threejs/webgl/varying/colorInsert.html",
+            //--------------------------------------------------------------------------------------------------------------------------
+            //threejs lesson:
 
-
-
+            "url3": "http://localhost/three.js/src/room/room.html",
+            //--------------------------------------------------------------------------------------------------------------------------
+            //threejs courses:
+            "url4": "http://localhost/three.js/iThreeJS/index.html", 
 
             "webRoot": "${workspaceFolder}"
+          
         }
     ]
 }

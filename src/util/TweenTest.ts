@@ -1,6 +1,6 @@
 
 import * as THREE from "three"
-import { OrbitControls } from "./../../node_modules/three/examples/jsm/controls/OrbitControls";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import * as TWEEN from "@tweenjs/tween.js"
 
 class Sphere {
@@ -21,7 +21,7 @@ class Sphere {
     }
 }
 
-class Threescene {
+class TweenTest {
     scene: THREE.Scene
     camera: THREE.PerspectiveCamera
     renderer: THREE.WebGLRenderer
@@ -101,4 +101,4 @@ class Threescene {
     }
 }
 
-export { Threescene }
+export { TweenTest }

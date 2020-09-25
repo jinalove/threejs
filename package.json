@@ -7,9 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "start": "webpack-dev-server --open",
-    "do": "npm run tsc && npm run build",
-    "build": "webpack",
-    "tsc": "tsc"
+    "build": "npm run tsc && npm run webpack",
+    "doWebpack": "webpack",
+    "tsc": "tsc",
+    "webpack": "npm run tsc && npm run doWebpack"
   },
   "author": "",
   "license": "ISC",
@@ -48,6 +49,7 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.161",
+    "@types/mathjs": "^6.0.5",
     "@types/three": "^0.103.2",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^4.3.0",

@@ -1,4 +1,4 @@
-import {Threescene} from "./util/scene"
+import {TweenTest} from "./util/TweenTest"
 import {First} from "./learn/firstScene"
 import {VectorTest} from "./learn/VectorTest"
 import {VectorColor} from "./learn/VectorColor"
@@ -9,13 +9,15 @@ import {GeometryMaterial} from "./learn/GeometryMaterial"
 import {ModelCopy} from "./learn/ModelCopy"
 import {ForSelectModel} from "./learn/ForSelectModel"
 import {Group} from "./learn/Group"
-
-
-
-
-
-
-
+import {Position} from "./learn/Position"
+import {ArcCurve} from "./learn/ArcCurve"
+import {CurvePath} from "./learn/CurvePath"
+import {CurveFace} from "./learn/CurveFace"
+import {CurveModelPath} from "./learn/CurveModelPath"
+import {CurvePathSlow} from "./learn/CurvePathSlow"
+import {CurveModelMultiPath} from "./learn/CurveModelMultiPath"
+import {RotateMakeModel} from "./learn/RotateMakeModel"
+import {VectorFangYang} from "./learn/VectorFangYang"
 
 
 import "./assets/css/index.css"
@@ -40,7 +42,36 @@ import "./assets/css/index.css"
 
 //new ForSelectModel()
 
-new Group()
+// new Group()
+
+// new Position()
+
+//new ArcCurve()
+
+//new CurvePath()
+
+//new CurveFace()
+
+//new CurveModelPath()
+
+//new RotateMakeModel()
+
+//new CurvePathSlow()
+
+//new CurveModelMultiPath()
+
+new VectorFangYang()
+
+
+
+
+
+
+
+
+
+
+
 
 
 
